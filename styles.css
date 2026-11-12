@@ -12,6 +12,8 @@ body {
     height: 150px;
     border-radius: 150px;
     margin:auto;
+    box-shadow: 2px 2px #fca311;
+    transition: 0.3s;
 }
 
 .avatar:hover{
@@ -24,7 +26,6 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    text-align: left;
     background: #14213d;
     color: #e5e5e5;
     border-bottom: 6px solid #fca311;
@@ -34,6 +35,14 @@ body {
     Find a color palette you like on Coolors.co
     and use it in your business card.
      */
+}
+.card-details{
+    text-align: left;
+}
+
+
+.personal-details{
+    text-align: left;
 }
 
 /*
